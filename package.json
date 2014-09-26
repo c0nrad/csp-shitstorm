@@ -1,0 +1,25 @@
+{
+  "name": "csp-shitstorm",
+  "version": "0.0.0",
+  "description": "A csp violation report spammer",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/c0nrad/csp-shitstorm.git"
+  },
+  "keywords": [
+    "csp",
+    "report",
+    "violation",
+    "test"
+  ],
+  "author": "c0nrad <c0nrad@c0nrad.io> (http://c0nrad@c0nrad.io/)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/c0nrad/csp-shitstorm/issues"
+  },
+  "homepage": "https://github.com/c0nrad/csp-shitstorm"
+}
