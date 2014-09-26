@@ -16,7 +16,7 @@ exports.randomUserAgent = function() {
   return userAgents[Math.floor(Math.random()*userAgents.length)];
 };
 
-var reports = fs.readFileSync('reports.dump','utf8').split('\n');
+var reports = fs.readFileSync('reports.dump','utf8').trim().split('\n');
 exports.randomReport = function() {
   return reports[Math.floor(Math.random()*reports.length)];
 };
@@ -44,5 +44,3 @@ exports.shitstorm = function(endpoint, timeout) {
     exports.sendReport(endpoint, report);
   }, timeout);
 };
-
-exports.shitstorm('http://localhost:3000', 10);

@@ -23,6 +23,7 @@
   },
   "homepage": "https://github.com/c0nrad/csp-shitstorm",
   "dependencies": {
+    "nomnom": "^1.8.0",
     "request": "*"
   }
 }
