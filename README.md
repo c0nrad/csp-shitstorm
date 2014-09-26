@@ -17,8 +17,9 @@ Options:
 ```
 
 ## Install
-```
+```bash
 npm install -g csp-shitstorm
+```
 
 ## Contact
 
