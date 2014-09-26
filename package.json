@@ -21,5 +21,8 @@
   "bugs": {
     "url": "https://github.com/c0nrad/csp-shitstorm/issues"
   },
-  "homepage": "https://github.com/c0nrad/csp-shitstorm"
+  "homepage": "https://github.com/c0nrad/csp-shitstorm",
+  "dependencies": {
+    "request": "*"
+  }
 }
