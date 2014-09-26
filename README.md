@@ -2,8 +2,6 @@
 
 Stress testing tool for CSP violation report endpoints.
 
-## Install
-
 ## Example
 ![Example](docs/img/example.gif)
 
@@ -17,3 +15,11 @@ Options:
    --url     The url of the endpoint to send reports  [http://localhost:3000]
    --delay   Number of miliseconds to wait between sending reports  [100]
 ```
+
+## Install
+```
+npm install -g csp-shitstorm
+
+## Contact
+
+Stuart Larsen c0nrad@c0nrad.io

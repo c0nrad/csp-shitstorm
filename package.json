@@ -1,10 +1,13 @@
 {
   "name": "csp-shitstorm",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "A csp violation report spammer",
   "main": "index.js",
   "scripts": {
     "test": "mocha"
+  },
+  "bin": {
+    "csp-shitstorm": "./bin/csp-shitstorm.js"
   },
   "repository": {
     "type": "git",
